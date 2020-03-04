@@ -1,0 +1,2 @@
+# OperadoresLogicosJavaScript
+NOT,ANT,OR
