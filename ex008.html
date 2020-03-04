@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores em Java Script</title>
+    <style>
+        body{
+            background-color: rgb(65, 90, 110);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(104, 32, 32);/*Comentario CSS*/
+        }
+        h2{
+            color: rgb(143, 132, 35);/*Comentario CSS*/
+        }
+        strong{
+            font-weight: bolder;
+        }
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+        document.writeln("<h1>Operadores Lógicos em Java Script</h1>")
+        //Operador NOT
+        document.writeln("<h2>Operador NOT !</h2>")
+        document.writeln(`<h2><table><tr><td>P</td><td>NOT</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${true}</td><td>${!true}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${false}</td><td>${!false}</td></tr></table></h2>`)
+        
+        document.writeln("<h2>Operador AND &&</h2>")
+        document.writeln(`<h2><table><tr><td>P</td><td>Q</td><td>AND</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${true}</td><td>${true}</td><td>${true&&true}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${true}</td><td>${false}</td><td>${true&&false}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${false}</td><td>${true}</td><td>${false&&true}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${false}</td><td>${false}</td><td>${false&&false}</td></tr></table></h2>`)
+        
+        document.writeln("<h2>Operador OR ||</h2>")
+        document.writeln(`<h2><table><tr><td>P</td><td>Q</td><td>OR</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${true}</td><td>${true}</td><td>${true||true}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${true}</td><td>${false}</td><td>${true||false}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${false}</td><td>${true}</td><td>${false||true}</td></tr></h2>`)
+        document.writeln(`<h2><tr><td>${false}</td><td>${false}</td><td>${false||false}</td></tr></table></h2>`)
+
+        
+    
+    </script>
+</body>
+</html>
